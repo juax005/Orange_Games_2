@@ -1,0 +1,133 @@
+@media screen and (max-width:500px) {
+    .op-menu{
+        display: none;/*ocultar*/
+    }
+    .menu-barras{
+        display: block;/*mostrar*/
+        margin-right: 20px;
+        font-size: 18px;
+    }
+    .clase1{
+        padding: 10px;
+    }
+    .menu-adaptable{
+        width: 100vw;
+        height: 50vh;
+        background-color: rgba(0,0,0,0.7);
+        position: fixed;
+        top: 10vh;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .menu-oculto{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    
+    .clase1 {
+        width:10vw; height: 10vh; 
+        align-items: center;
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+        margin-left: 90px;
+    }
+
+        
+    .clase2 {
+        width:90vw; height:10vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .clase3{
+        width: 50vw; 
+        height: 70vh; 
+        background:rgb(7, 250, 7);
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        flex-direction: row;
+        position: fixed; 
+        top:10vh; 
+        left: 0;
+        font-family: Si;
+        z-index: 2;
+    
+    }
+
+    .clase4{
+        width: 50vw; 
+        height: 70vh; 
+        background:rgb(7, 11, 250);
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        flex-direction: row;
+        position: fixed; 
+        top:30vh; 
+        right: 0;
+        font-family: Si;
+        z-index: 2;
+    
+    }
+
+    .clase5{
+        width: 50vw; 
+        height: 20vh; 
+        background:rgb(250, 7, 238);
+        display: flex; 
+        align-items: center; 
+        justify-content: right; 
+        flex-direction: row;
+        left: 50vw;
+        top:10vh; 
+
+        font-family: Si;
+        z-index: 2;
+    
+    }
+
+    .clase6{
+        width: 50vw; 
+        height: 20vh; 
+        background:rgb(234, 250, 7);
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        flex-direction: row;
+        position: fixed; 
+        top: 80vh; 
+        left: 0;
+        font-family: Si;
+        z-index: 2;
+    
+    }
+
+    nav {
+        width: 100vw; 
+        height: 10vh; 
+        background:   #f8740d;
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        flex-direction: row;
+        position: fixed; 
+        top:0; 
+        left: 0;
+        font-family: Si;
+        z-index: 2;
+        }
+
+        .clase7{
+         display: none;
+        
+        }
+    
+}
